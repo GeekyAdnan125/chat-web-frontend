@@ -26,8 +26,35 @@ This repository contains the **frontend** of a realtime chat application built u
 - ⚡ High performance with Vite
 
 ---
-
 ## 📁 Project Structure
+
+<img width="330" height="478" alt="image" src="https://github.com/user-attachments/assets/eee0922d-5463-470a-81b0-7ea35b1e6b6d" />
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/GeekyAdnan125/chat-web-frontend.git
+cd chat-web-frontend
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Environment variables
+
+Create a .env file in the root directory:
+
+VITE_BACKEND_URL=http://localhost:5000
+VITE_SOCKET_URL=http://localhost:5000
+4️⃣ Run the development server
+npm run dev
+
+🔗 Backend Repository
+
+https://github.com/GeekyAdnan125/chat-web-backend-
+
 
 
 
