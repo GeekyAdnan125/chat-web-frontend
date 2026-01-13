@@ -1,12 +1,62 @@
-# React + Vite
+# 💬 Realtime Chat Application – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the **frontend** of a realtime chat application built using **React + Vite** with modern UI and realtime communication support.
 
-Currently, two official plugins are available:
+👉 The **backend is maintained in a separate repository**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React (Vite)** – Fast and modern frontend tooling
+- 🎨 **Tailwind CSS** – Utility-first styling
+- 🔌 **Socket.IO Client** – Realtime messaging
+- 🌐 **REST API Integration** – Backend communication
+- 🔥 **Vite HMR** – Instant hot module reload
+
+---
+
+## ✨ Features
+
+- 🔐 User authentication (via backend)
+- 💬 Realtime one-to-one / group chat
+- 🟢 Online / offline user status
+- 📡 Live message updates using Socket.IO
+- 📱 Fully responsive UI
+- ⚡ Fast performance with Vite
+
+---client/
+│── public/
+│── src/
+│ ├── components/
+│ ├── context/
+│ ├── pages/
+│ ├── services/
+│ ├── socket/
+│ └── App.jsx
+│── index.html
+│── vite.config.js
+│── package.json
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/GeekyAdnan125/chat-web-frontend.git
+cd chat-web-frontend
+2️⃣ Install dependencies
+npm install
+3️⃣ Environment variables
+
+Create a .env file in the root directory:
+
+VITE_BACKEND_URL=http://localhost:5000
+VITE_SOCKET_URL=http://localhost:5000
+
+
+⚠️ Make sure your backend server is running.
+4️⃣ Run the development server
+npm run dev
+
+
+## 📁 Project Structure
+
